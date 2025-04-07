@@ -7,6 +7,7 @@ A new Flutter project.
 This project is a starting point for a Flutter Scan application.
 
 ## 项目目录结构
+```
 ├── android/                 # Android平台相关代码
 ├── ios/                     # iOS平台相关代码
 ├── lib/                     # 主要的Dart代码
@@ -59,6 +60,7 @@ This project is a starting point for a Flutter Scan application.
 ├── test/                    # 测试代码
 ├── pubspec.yaml             # 依赖配置
 └── README.md                # 项目说明
+```
 
 
 ## 主要功能
