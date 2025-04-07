@@ -1,0 +1,206 @@
+import 'package:get/get.dart';
+
+class AppTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+    'en_US': {
+      // 通用
+      'app_name': 'VBookScan',
+      'confirm': 'Confirm',
+      'cancel': 'Cancel',
+      'save': 'Save',
+      'delete': 'Delete',
+      'edit': 'Edit',
+      'share': 'Share',
+      'loading': 'Loading...',
+      'success': 'Success',
+      'error': 'Error',
+      'warning': 'Warning',
+      'info': 'Information',
+
+      // 主页
+      'home': 'Home',
+      'scan_document': 'Scan Document',
+      'my_documents': 'My Documents',
+      'recent_scans': 'Recent Scans',
+      'no_recent_scans': 'No recent scans',
+
+      // 扫描页面
+      'scan': 'Scan',
+      'take_photo': 'Take Photo',
+      'from_gallery': 'From Gallery',
+      'scanning': 'Scanning...',
+      'scan_again': 'Scan Again',
+      'adjust_corners': 'Adjust Corners',
+      'processing_image': 'Processing Image...',
+
+      // 文档编辑
+      'document_edit': 'Edit Document',
+      'crop': 'Crop',
+      'rotate': 'Rotate',
+      'filter': 'Filter',
+      'enhance': 'Enhance',
+      'add_page': 'Add Page',
+      'remove_page': 'Remove Page',
+      'reorder_pages': 'Reorder Pages',
+      'page_n': 'Page %d',
+
+      // 文档查看
+      'document_view': 'View Document',
+      'export_pdf': 'Export as PDF',
+      'export_image': 'Export as Image',
+      'copy_text': 'Copy Text',
+      'text_copied': 'Text copied to clipboard',
+
+      // 文档列表
+      'document_list': 'Documents',
+      'search_documents': 'Search Documents',
+      'sort_by': 'Sort By',
+      'date_created': 'Date Created',
+      'date_modified': 'Date Modified',
+      'name': 'Name',
+      'no_documents': 'No documents found',
+      'delete_document_confirm':
+      'Are you sure you want to delete this document?',
+
+      // OCR结果
+      'ocr_result': 'OCR Result',
+      'recognized_text': 'Recognized Text',
+      'copy_all': 'Copy All',
+      'edit_text': 'Edit Text',
+      'save_text': 'Save Text',
+      'export_text': 'Export Text',
+      'no_text_found': 'No text found in the image',
+
+      // 设置
+      'settings': 'Settings',
+      'ocr_settings': 'OCR Settings',
+      'ocr_language': 'OCR Language',
+      'ocr_accuracy': 'OCR Accuracy',
+      'standard': 'Standard',
+      'high': 'High',
+      'theme_settings': 'Theme Settings',
+      'dark_mode': 'Dark Mode',
+      'toggle_theme': 'Toggle Theme',
+      'theme_color': 'Theme Color',
+      'custom_app_color': 'Custom App Color',
+      'storage_management': 'Storage Management',
+      'storage_path': 'Storage Path',
+      'cache_size': 'Cache Size',
+      'clear_cache': 'Clear Cache',
+      'cache_cleared': 'Cache cleared',
+      'cloud_sync': 'Cloud Sync',
+      'auto_sync': 'Auto Sync',
+      'sync_account': 'Sync Account',
+      'sign_in': 'Sign In',
+      'sign_out': 'Sign Out',
+      'about': 'About',
+      'app_version': 'App Version',
+      'privacy_policy': 'Privacy Policy',
+      'terms_of_service': 'Terms of Service',
+      'language': 'Language',
+      'chinese_english': 'Chinese + English',
+      'chinese_simplified': 'Chinese (Simplified)',
+      'english': 'English',
+    },
+    'zh_CN': {
+      // 通用
+      'app_name': 'VBookScan',
+      'confirm': '确认',
+      'cancel': '取消',
+      'save': '保存',
+      'delete': '删除',
+      'edit': '编辑',
+      'share': '分享',
+      'loading': '加载中...',
+      'success': '成功',
+      'error': '错误',
+      'warning': '警告',
+      'info': '信息',
+
+      // 主页
+      'home': '首页',
+      'scan_document': '扫描文档',
+      'my_documents': '我的文档',
+      'recent_scans': '最近扫描',
+      'no_recent_scans': '没有最近扫描',
+
+      // 扫描页面
+      'scan': '扫描',
+      'take_photo': '拍照',
+      'from_gallery': '从相册选择',
+      'scanning': '扫描中...',
+      'scan_again': '重新扫描',
+      'adjust_corners': '调整边角',
+      'processing_image': '处理图像中...',
+
+      // 文档编辑
+      'document_edit': '编辑文档',
+      'crop': '裁剪',
+      'rotate': '旋转',
+      'filter': '滤镜',
+      'enhance': '增强',
+      'add_page': '添加页面',
+      'remove_page': '删除页面',
+      'reorder_pages': '重新排序',
+      'page_n': '第%d页',
+
+      // 文档查看
+      'document_view': '查看文档',
+      'export_pdf': '导出为PDF',
+      'export_image': '导出为图片',
+      'copy_text': '复制文本',
+      'text_copied': '文本已复制到剪贴板',
+
+      // 文档列表
+      'document_list': '文档列表',
+      'search_documents': '搜索文档',
+      'sort_by': '排序方式',
+      'date_created': '创建日期',
+      'date_modified': '修改日期',
+      'name': '名称',
+      'no_documents': '未找到文档',
+      'delete_document_confirm': '确定要删除此文档吗？',
+
+      // OCR结果
+      'ocr_result': 'OCR结果',
+      'recognized_text': '识别文本',
+      'copy_all': '复制全部',
+      'edit_text': '编辑文本',
+      'save_text': '保存文本',
+      'export_text': '导出文本',
+      'no_text_found': '图像中未找到文本',
+
+      // 设置
+      'settings': '设置',
+      'ocr_settings': 'OCR设置',
+      'ocr_language': 'OCR语言',
+      'ocr_accuracy': 'OCR精度',
+      'standard': '标准',
+      'high': '高精度',
+      'theme_settings': '主题设置',
+      'dark_mode': '深色模式',
+      'toggle_theme': '切换主题',
+      'theme_color': '主题颜色',
+      'custom_app_color': '自定义应用颜色',
+      'storage_management': '存储管理',
+      'storage_path': '存储路径',
+      'cache_size': '缓存大小',
+      'clear_cache': '清除缓存',
+      'cache_cleared': '缓存已清除',
+      'cloud_sync': '云同步',
+      'auto_sync': '自动同步',
+      'sync_account': '同步账号',
+      'sign_in': '登录',
+      'sign_out': '退出登录',
+      'about': '关于',
+      'app_version': '应用版本',
+      'privacy_policy': '隐私政策',
+      'terms_of_service': '服务条款',
+      'language': '语言',
+      'chinese_english': '中文+英文',
+      'chinese_simplified': '简体中文',
+      'english': '英文',
+    },
+  };
+}
